@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-image: url(https://i.pinimg.com/originals/b4/e3/71/b4e371619042d1e80918d09904e90f7d.gif);
+    background-size: 250vh;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    margin: top 2px;
+    padding: 30px;
+   }
+   
+.logo_matrix_image{
+    position: absolute;
+    height: 115px;
+}
+
+.morpheus_image{
+    position:absolute;
+    height: 800px;
+    right: 25ch;
+}
+
+input{
+    border: 1px solid black;
+    border: 0;
+    border-radius: 6px;
+    height: 25px;
+    width: 150px;
+    margin: 5px;
+    position: center;
+}
+
+form{
+    padding: 40px;
+    margin: 150px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: black;
+    height: 200px;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1% solid;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+#btn{
+    height: 25px;
+    width: 100px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(21,255,0), rgb(10,116,0));
+    color: white;
+}
